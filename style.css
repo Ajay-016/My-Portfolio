@@ -118,8 +118,17 @@ form label {
     color: #007BFF;
 }
 
-form input,
+form input{
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 100%;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
 form textarea {
+    height: 100px;
     margin-bottom: 20px;
     padding: 15px;
     width: 100%;
@@ -169,4 +178,13 @@ form button:hover {
     .section h2 {
         font-size: 28px;
     }
+}
+
+
+.contact-left-title h2{
+    text-align: center;
+  }
+
+  .footer-second ul {
+    cursor: pointer;
 }

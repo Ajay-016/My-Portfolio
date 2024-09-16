@@ -296,22 +296,21 @@ footer .footer-rights{
 
          <!-- Contact Section --->
          <section id="contact" class="section">
-            <div class="container">
-                <h2>Contact Me</h2>
-                <form id="contactForm" action="mailto:av7730748@gmail.com" method="post" enctype="text/plain">
-                    <label for="name">Name:</label>
-                    <input placeholder="Enter your name here" type="text" id="name" name="name" required>
-                    
-                    <label for="email">Email:</label>
-                    <input placeholder="Enter your mail id" type="email" id="email" name="email" required>
-                    
-                    <label for="message">Your Message:</label>
-
-                    <textarea placeholder="Feel free to say anything!" id="message" name="message" required></textarea>
-                    
-                    <button type="submit">Send</button>
-                </form>
+            <div class="contact-container">
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+              <h2>CONTACT ME</h2>
+              
             </div>
+            <input type="hidden" name="access_key" value="3f10a431-607d-4b58-8b19-e16419faa247">
+            
+            <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Your Mail" class="contact-inputs" required>
+            <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+            <button type="submit">Submit <img src="assets/arrow_icon.png" alt=""></button>
+            
+            
+                </form>
         </section>
         
 
