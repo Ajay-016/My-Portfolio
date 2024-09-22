@@ -419,3 +419,12 @@ form button:hover {
         font-size: 12px;
     }
 }
+
+
+
+
+
+.rightSection img {
+    object-fit:cover;
+    border-radius: 5%;
+}
